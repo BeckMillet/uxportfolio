@@ -1,0 +1,9 @@
+.body {
+    height: 100vh;
+}
+
+.picWindow {
+    background-image: url("../imgs/background.jpeg");
+    width: 100%;
+    height: 30vh;
+}
