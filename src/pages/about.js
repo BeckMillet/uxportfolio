@@ -1,6 +1,6 @@
 import './about.css';
 
-export function about() {
+export default function About() {
     return (
         <div>
             

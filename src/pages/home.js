@@ -1,14 +1,12 @@
 import './home.css';
 
-export function Home() {
+export default function Home() {
     return (
-        <div className='body'>
-            <p>
-                wassup
-            </p>
-            <div className='picWindow'>
-
-            </div>
+        <div className='main'>
+            <p className='pp'>wassup</p>
+            <div className='picWindow'></div>
+            <p className='pp'>wassup</p>
+            <p className='pp'>wassup</p>
         </div>
     )
 }

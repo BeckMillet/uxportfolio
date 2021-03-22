@@ -1,6 +1,6 @@
 import './projects.css';
 
-export function dev() {
+export default function Dev() {
     return (
         <div>
             

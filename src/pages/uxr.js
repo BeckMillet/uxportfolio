@@ -1,6 +1,6 @@
 import './projects.css';
 
-export function uxr() {
+export default function Uxr() {
     return (
         <div>
             

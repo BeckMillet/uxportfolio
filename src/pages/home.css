@@ -1,9 +1,13 @@
-.body {
+.main {
     height: 100vh;
+    background-color: white;
 }
-
+.pp {
+    height: 70vh;
+    
+    margin-block-start: 0vmin;
+}
 .picWindow {
-    background-image: url("../imgs/background.jpeg");
-    width: 100%;
-    height: 30vh;
+    background: url("../imgs/background.jpeg") center fixed;
+    height: 40vh;
 }
