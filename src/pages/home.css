@@ -3,8 +3,11 @@
     background-color: white;
 }
 .pp {
-    height: 70vh;
-    
+    margin-block-start: 0vmin;
+    padding-top: 5vmin;
+}
+.ppp {
+    height: 70vmin;
     margin-block-start: 0vmin;
 }
 .picWindow {
