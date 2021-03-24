@@ -1,14 +1,12 @@
-.main {
-    height: 100vh;
-    background-color: white;
-}
 .pp {
-    margin-block-start: 0vmin;
+
     padding-top: 5vmin;
 }
 .ppp {
     height: 70vmin;
-    margin-block-start: 0vmin;
+    background-color: white;
+    margin-left: 31vmin;
+    border-radius: 9vmin;
 }
 .picWindow {
     background: url("../imgs/background.jpeg") center fixed;
