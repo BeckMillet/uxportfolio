@@ -71,7 +71,7 @@
   background: #203647;
   border-radius: 17px;
   padding-top:2.5vmin;
-  padding-bottom:0.25vmin;
+  padding-bottom:0.1vmin;
   margin:1.5vmin;
   
 }
@@ -79,15 +79,19 @@
   background: #12232E;
   border-radius: 17px;
   line-height: 3.3vmin;
-  margin:0.7vmin;
+  margin:1vmin;
   display: flex;
   fill: #b8e3fe;
 }
-.navbuttons.active, .navbuttons:hover .navtext {
+.navbuttons.active {
     background: #12232E;
     color: #ffbc28;
     fill: #ffbc28;
-    filter: drop-shadow(0px 0px 2px #b8e3fe);
+    border: 1px solid #ffbc28;
+    filter: drop-shadow(0px 0px 2px #ffbc28);
+}
+.navbuttons:hover {
+  filter: drop-shadow(0px 0px 2.5px #b8e3fe);
 }
 .navtext {
   text-decoration: none; 
@@ -97,7 +101,8 @@
 }
 .navtitle {
   margin-left: -15vmin;
-  margin-top: -1.8vmin;
+  margin-top: -1.7vmin;
+  margin-bottom:-0.3vmin;
 }
 .navIcon {
   width:2vmin;
